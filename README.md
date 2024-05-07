@@ -1,12 +1,13 @@
 # 🧼 Duacode_clean-code
+
 Clean Code laboratory
 
-> [Laboratorio de ejemplo](https://github.com/CursosAlbertoBasalo/Duacode_clean-code) para cursos y talleres de [Código Limpio](https://albertobasalo.notion.site/Clean-code-t-cnicas-para-escribir-mejor-c-digo-874929129a894e969d24295db05e046a) impartidos por [Alberto Basalo](https://albertobasalo.dev) con [TrainingIT](https://trainingit.es/)
+> [Documentación y ejemplos](https://github.com/CursosAlbertoBasalo/Duacode_clean-code) para cursos y talleres de [Código Limpio](https://albertobasalo.notion.site/Clean-code-t-cnicas-para-escribir-mejor-c-digo-874929129a894e969d24295db05e046a) impartidos por [Alberto Basalo](https://albertobasalo.dev) con [TrainingIT](https://trainingit.es/)
 
 > [!NOTE]
 > Este proyecto dispone de ejemplos en TypeScript
 > 
-> El contendo es apto para cualquier lenguaje de programación
+> El contenido es apto para cualquier lenguaje de programación
 
 ---
 
