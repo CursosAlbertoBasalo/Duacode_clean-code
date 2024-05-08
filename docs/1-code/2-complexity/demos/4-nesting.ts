@@ -1,6 +1,6 @@
+// * Avoid nest callbacks and ternary operators
+
 import { Client, Invoice } from "./types";
-
-
 // Simulating an async function to get clients
 const getClients = (): Promise<Client[]> => {
 	return new Promise((resolve) => {
@@ -30,8 +30,10 @@ const getInvoicesForClient = (client: string): Promise<Invoice[]> => {
 function main() {
 	getClients().then(async (clients) => {
 		for (const client of clients) {
-			getInvoicesForClient(client.id).then((invoices) => {
+      getInvoicesForClient(client.id).then((invoices) => {
+        // ! arrows inside arrows inside arrows...
         invoices.forEach((invoice) => {
+          // ! are you sure of this logic?
           const shipment = client.status === 'defaulter' ? 'none': client.status === 'VIP' ? 'deluxe' : invoice.total > 1000 ? 'express' : 'regular';
           console.log(`Shipment ${shipment} for invoice ${invoice.date}`);
 					console.log(`Invoice ${invoice} for ${client}`);
