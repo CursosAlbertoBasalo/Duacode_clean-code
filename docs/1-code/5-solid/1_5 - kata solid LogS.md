@@ -1,4 +1,4 @@
-# LogS Kata TypeScript
+# LogS Kata 
 
 ## Specifications
 
