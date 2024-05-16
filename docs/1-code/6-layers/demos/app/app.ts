@@ -1,7 +1,7 @@
 import express, { type Request, type Response } from "express";
-
 import { bookActivity, listActivities } from "../bll/bll";
-import type { Activity, Booking, BookingStatus } from "../dal/dal";
+import type { Activity } from "../model/activity.model";
+import type { Booking } from "../model/booking.model";
 
 const PORT = 3000;
 const app = express();

@@ -1,11 +1,7 @@
-import {
-	type Activity,
-	type Booking,
-	insertBooking,
-	selectActivityById,
-	selectAllActivities,
-	selectBookingsByActivityId,
-} from "../dal/dal";
+import { selectActivityById, selectAllActivities } from "../dal/activities.dal";
+import { insertBooking, selectBookingsByActivityId } from "../dal/bookings.dal";
+import type { Activity } from "../model/activity.model";
+import type { Booking } from "../model/booking.model";
 
 export const listActivities = (): Activity[] => {
 	const activities = selectAllActivities();
